@@ -16,7 +16,7 @@ contains(LINKCORE, [yY][eE][sS]) {
 }
 LIBS += -L$$PWD/../externals
 
-DESTDIR = .
+DESTDIR = $$PWD/..
 RCC_DIR = temp
 MOC_DIR = temp
 OBJECTS_DIR = temp
